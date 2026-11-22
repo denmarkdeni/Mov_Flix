@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export function Header(){
     return (
         <div className="header">
@@ -6,9 +8,12 @@ export function Header(){
                 <p>movflix</p>
             </div>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                {/* <a href="/">Home</a>
+                <a href="/about">About</a>
+                <a href="/rules">Rules</a> */}
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/contact">Contact</Link>
             </nav>
         </div>
     )
