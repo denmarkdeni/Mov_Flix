@@ -1,0 +1,33 @@
+.header div img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: yellowgreen;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+
+.header div , .header nav{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header div p{
+  color: blue;
+  font-weight: 900;
+}
+
+.footer p{
+  text-align: center;
+  background-color: yellowgreen;
+  padding: 5px;
+  margin: 15px;
+  border-radius: 10px;
+}
