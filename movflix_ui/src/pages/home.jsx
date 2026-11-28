@@ -1,6 +1,7 @@
 import React from "react";
 import Movies_carousal from "./movies_carousal";
 import Counter from "./counter";
+import Parent from "../hooks/parent";
 
 export default function Home(){
   return(
@@ -8,6 +9,7 @@ export default function Home(){
       <Hero />
       <Movies_carousal />
       <Counter />
+      <Parent />
     </>
   )
 }
